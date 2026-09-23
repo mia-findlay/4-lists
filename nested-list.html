@@ -9,20 +9,103 @@
 
 <body>
     <h1>Nested List</h1>
-    <ul>
+    <ul class="nav">
         <li>
             <a href="index.html">Home</a>
         </li>
 
         <li>
-            <a href="flat-list.html" >Lists</a>
+            <a href="flat-list.html">Flat Lists</a>
         </li>
 
         <li>
             <a href="nested-list.html">Nested lists</a>
         </li>
     </ul>
+
+    <ol>
+        <li>
+            breakfast 
+                <ul>
+                    <li>Pancakes</li>
+                    <li>waffles</li>
+                </ul>
+        </li>
+        <li>
+            lunch
+                <ul>
+                    <li>sandwich</li>
+                    <li>uncrustables</li>
+                </ul>
+        </li>
+        <li>
+            dinner
+                <ul>
+                    <li>pizza</li>
+                    <li>shrimp fried rice</li>
+                </ul>
+        </li>
+    </ol>
+
+
+<p>
+ Now, create a nested list for a hypothetical navigation menu on a website about stuff in the solar system (the indent shows you the site topics for each of the main 
+ menu topics). Turn off the bullet display with CSS, since navigation doesn't use it. Also, you'll need to create hyperlinks inside each of the list items so that the
+  menu is clickable. There is nowhere for the link to go (this is all a pretend menu), so use an empty href attribute:
+     &lt;li&gt;&lt;a href=""&gt;linked text&lt;/a&gl;&lt;/li&gt;.
+   Also remember that nested lists go inside the parent list item.
+
+</p>
+<ul>
+    <li>
+        Planets
+        <ol>
+            <li>Mercury</li>
+            <li>Venus</li>
+            <li>Earth</li>
+            <li>Mars</li>
+            <li>Jupiter</li>
+            <li>Saturn</li>
+            <li>Uranus</li>
+            <li>Neptune</li>
+        </ol>
+    </li>
+
+    <li>
+        Dwarf Planets
+        <ul>
+            <li>Ceres</li>
+            <li>Pluto</li>
+            <li>Haumea</li>Haumea
+            <li>Makemake</li>
+            <li>Eris</li>
+        </ul>
+    </li>
+
+<li>
+        Planetoids
+        <ul>
+            <li>Asteroids</li>
+            <li>The Kuiper Belt</li>
+            <li>Detached Objects</li>
+            <li>The Oort Cloud</li>
+        </ul>
+</li>
+
+<li>
+        Space Junk
+        <ul>
+            <li>Dead Spacecraft</li>
+            <li>Lost Equipment</li>
+            <li>Boosters</li>
+            <li>Weapon Debris</li>
+        </ul>
+</li>
+
+
+</ul>
 </body>
+
 
 
 
